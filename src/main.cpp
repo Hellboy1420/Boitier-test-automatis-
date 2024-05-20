@@ -330,7 +330,7 @@ void sequence_START_SCANNER() {
       lcd.setCursor(2, 1);
       lcd.print("system start up");
       lcd.setCursor(0, 2);
-      lcd.print("without any issues?");
+      lcd.print("without any problem?");
       lcd.setCursor(1, 3);
       lcd.print("If YES: push next");
 
@@ -465,7 +465,7 @@ void sequence_SHUTDOWN_COMMAND() {
     lcd.setCursor(1, 1);
     lcd.print("shut down without");
     lcd.setCursor(4, 2);
-    lcd.print("any issues ?");
+    lcd.print("any problem ?");
     lcd.setCursor(0, 3);
     lcd.print("If YES : push next!");
 
